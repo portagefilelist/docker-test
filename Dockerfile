@@ -1,4 +1,4 @@
-FROM tuxmainy/pfl-base:latest
+FROM portagefilelist/pfl-base:latest
 
 RUN touch /root/debugpfl
 RUN mkdir /pfl && git clone https://github.com/portagefilelist/client.git /pfl
